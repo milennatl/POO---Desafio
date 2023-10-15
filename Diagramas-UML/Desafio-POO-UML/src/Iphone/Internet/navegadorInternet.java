@@ -1,4 +1,4 @@
-package Internet;
+package Iphone.Internet;
 
 public interface navegadorInternet {
     public void exibirPagina(); 

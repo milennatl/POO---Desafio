@@ -1,63 +1,56 @@
 package Iphone;
 
-import Internet.navegadorInternet;
-import Musica.ReprodutorMusical;
-import Telefone.aparelhoTelefonico;
+import Iphone.Internet.navegadorInternet;
+import Iphone.Musica.ReprodutorMusical;
+import Iphone.Telefone.aparelhoTelefonico;
 
 public class smartPhone implements navegadorInternet, ReprodutorMusical, aparelhoTelefonico {
 
     @Override
     public void ligar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'ligar'");
+        System.err.println("Ligando.");
     }
 
     @Override
     public void atender() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atender'");
+        System.out.println("Chamada em execução");
     }
 
     @Override
     public void iniciarCorreioVoz() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'iniciarCorreioVoz'");
-    }
+        System.out.println("Iniciando correio de voz.");
+     }
 
     @Override
     public void tocar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'tocar'");
+        System.err.println("Tocando música selecionada.");
     }
 
     @Override
     public void pausar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'pausar'");
+        System.out.println("Música pausada.");
     }
 
     @Override
     public void selecionarMusica() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'selecionarMusica'");
+        System.out.println("Tocando música selecionada.");
     }
 
     @Override
     public void exibirPagina() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'exibirPagina'");
+        System.out.println("Exibindo página.");
     }
 
     @Override
     public void adicionarNovaAba() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'adicionarNovaAba'");
+        System.out.println("Nova aba aberta.");
     }
 
     @Override
     public void atualizarPagina() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atualizarPagina'");
+        System.out.println("Atualizando.");
     }
-    
 }
+    
+

@@ -1,4 +1,4 @@
-package Telefone;
+package Iphone.Telefone;
 
 public interface aparelhoTelefonico {
     public void ligar (); 
